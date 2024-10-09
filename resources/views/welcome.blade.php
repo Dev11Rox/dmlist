@@ -13,7 +13,7 @@
     <div class="container">
         <nav>
             <form action="" class="form">
-                <h1 class="title">INFORMACION PACIENTE</h1>
+                <h1 class="title">INFORMACIÓN PACIENTE</h1>
                 <hr/>
                 <div class="inputContainer">
                     <select name="id_tipo" id="tipo_doc">
