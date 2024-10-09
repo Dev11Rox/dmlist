@@ -313,6 +313,10 @@ select {
     background-color: #0052d3;
     transform: translateY(-2px);
 }
+
+.fotoBtn {
+    width: 100%;
+}
 .buscarBtn:hover {
     background-color: #0052d3;
 }

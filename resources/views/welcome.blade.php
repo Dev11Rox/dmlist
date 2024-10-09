@@ -17,19 +17,21 @@
                 <hr/>
                 <div class="inputContainer">
                     <select name="id_tipo" id="tipo_doc">
-                        <option value="CC">CEDULA</option>
+                        <option value="CC">CÉDULA</option>
                         <option value="TI">TARJETA DE IDENTIDAD</option>
-                        <option value="CE">CEDULA EXTRANJERIA</option>
+                        <option value="CE">CÉDULA EXTRANJERIA</option>
                         <option value="RC">REGISTRO CIVIL</option>
-                        <option value="CI">CARNET IDENTIDADI</option>
+                        <option value="CI">CARNET IDENTIDAD</option>
                         <option value="PA">PASAPORTE</option>
+                        <option value="PA">PERMISO ESPECIAL</option>
+                        <option value="PA">PERMISO TEMPORAL</option>
                     </select>
-                    <label for=" " class="label">Tipo de identificacion</label>
+                    <label for=" " class="label">Tipo de identificación</label>
                 </div>
 
                 <div class="inputContainer">
                     <input type="number" class="input" placeholder="a" id="identificacion">
-                    <label for="" class="label">Identificacion</label>
+                    <label for="" class="label">Identificación</label>
                 </div>
 
                 <div class="inputContainer">
@@ -79,11 +81,11 @@
                 </div>
                 <div class="inputContainer">
                     <input type="text" id="direccion" class="input" placeholder="a">
-                    <label for="" class="label">Direccion</label>
+                    <label for="" class="label">Dirección</label>
                 </div>
                 <div class="inputContainer">
                     <input type="number" id="telefono" class="input" placeholder="a">
-                    <label for="" class="label">Telefono</label>
+                    <label for="" class="label">Teléfono</label>
                 </div>
                 <div class="buttonContainer">
                     <input type="submit" id="guardar" class="submitBtn" value="Guardar">
@@ -101,8 +103,8 @@
                         <div class="ftoCedula">
                             <img id="ftoFrenteId" src="/imgs/LOGO%20DM.png" >
                         </div>
-                        <div class="fotoBtn">
-                            <a>Tomar</a>
+                        <div class="buttonContainer">
+                            <input type="submit" id="frente" class="fotoBtn" value="Tomar">
                         </div>
                     </div>
 
@@ -111,8 +113,8 @@
                         <div class="ftoCedula">
                             <img id="ftoReversoId" src="/imgs/LOGO%20DM.png" >
                         </div>
-                        <div class="fotoBtn">
-                            <a>Tomar</a>
+                        <div class="buttonContainer">
+                            <input type="submit" id="reverso" class="fotoBtn" value="Tomar">
                         </div>
                     </div>
                 </div>
@@ -130,7 +132,7 @@
                 <div class="buttonContainer">
                     <div class="filtroContainer">
                         <select name="est_tipo" id="lang">
-                            <option value="Identificacion">Identificacion</option>
+                            <option value="Identificacion">Identificación</option>
                             <option value="Fecha">Fecha</option>
                             <option value="Nombre">Nombre</option>
                             <option value="Apellido">Apellido</option>
@@ -150,12 +152,12 @@
                         <table>
                             <thead>
                             <tr>
-                                <th>IDENTIFICACION</th>
+                                <th>IDENTIFICACIÓN</th>
                                 <th>NOMBRE COMPLETO</th>
                                 <th>FECHA DE NACIMIENTO</th>
                                 <th>RH</th>
                                 <th>ENTIDAD</th>
-                                <th>TELEFONO</th>
+                                <th>TELÉFONO</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -221,6 +223,6 @@
     </div>
 
     <hr/>
-    <div CLASS="footer">© 2024 DM DIAGNOSTICO MEDICO SAS</div>
+    <div CLASS="footer">© 2024 DM DIAGNÓSTICO MÉDICO SAS</div>
 
 </x-layout>
